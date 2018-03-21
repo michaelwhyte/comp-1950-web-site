@@ -105,7 +105,7 @@
 // Mixin to set links
 // to not have their
 // default look
-@mixin plain-link($c: white){
+@mixin plain-link($c: $site-black){
     text-decoration: none;
     color: $c;
 }
